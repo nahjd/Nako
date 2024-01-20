@@ -1,0 +1,31 @@
+.home {
+  background-image: url("./../../../public/images/salam.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  //   border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 55px;
+  .text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    h1 {
+      color: white;
+    }
+    span {
+      font-size: 35px;
+      color: blue;
+    }
+  }
+}
+.home1 {
+  background-image: url("./../../../public/images/zahid.avif");
+}
+.home2 {
+  background-image: url("./../../../public/images/ss.jpg");
+}
