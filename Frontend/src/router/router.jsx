@@ -1,4 +1,5 @@
 import Basket from "../Pages/Basket/Basket"
+import Detail from "../Pages/Detail/Detail"
 import Home from "../Pages/Home/Home"
 import Wishlist from "../Pages/Wishlist/Wishlist"
 import UseRoot from "./../components/useRoot/index"
@@ -23,6 +24,10 @@ export const routes = [
             {
                 path: "/basket",
                 element: <Basket />
+            },
+            {
+                path: "/:id",
+                element: <Detail />
             },
         ]
     }

@@ -5,6 +5,7 @@ import Menu from "./../../components/Menu/Menu"
 const Home = () => {
     return (
         <>
+
             <Hero />
             <Menu />
         </>

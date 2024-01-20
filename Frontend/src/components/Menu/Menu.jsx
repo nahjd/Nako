@@ -9,6 +9,7 @@ import { MdOutlineFavorite } from "react-icons/md";
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
 import "./Menu.scss"
 const Menu = () => {
     const wishlist = useSelector((state) => state.meal.wishlist)
@@ -60,6 +61,8 @@ const Menu = () => {
                                         }}
 
                                         size="small"> Basket</Button>
+                                    <Link to={"/" + item._id}>
+                                        <Button size="small"> Detail</Button></Link>
                                 </CardActions>
                             </Card>
 
